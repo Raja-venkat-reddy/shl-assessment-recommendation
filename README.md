@@ -20,37 +20,15 @@ This project was developed as part of the SHL Research Intern – Generative AI 
 Architecture
 
 
-Job Description
-      ↓
-Sentence Transformer (Embeddings)
-      ↓
-Cosine Similarity Search
-      ↓
-Top-K SHL Assessments
-      ↓
-FastAPI Response
-
-
-Project Structure
-
-shl-assessment-recommendation/
-│
-├── backend/
-│   ├── app.py              # FastAPI application
-│   ├── recommender.py      # Recommendation logic
-│   └── schemas.py          # API request/response schemas
-│
-├── scripts/
-│   ├── scrape_shl.py       # SHL catalog scraper
-│   └── build_embeddings.py # Embedding generation
-│
-├── data/                   # Generated at runtime (gitignored)
-│   ├── shl_catalog.json
-│   ├── embeddings.npy
-│   └── metadata.json
-│
-├── README.md
-└── .gitignore
+->Job Description
+      
+->Sentence Transformer (Embeddings)
+      
+->Cosine Similarity Search
+      
+->Top-K SHL Assessments
+      
+->FastAPI Response
 
 
 Data Ingestion (SHL Catalog Scraping)
